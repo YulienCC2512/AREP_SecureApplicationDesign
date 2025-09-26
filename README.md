@@ -169,8 +169,9 @@ Usar la interfaz para crear, listar, actualizar y eliminar.
 ![](images/image4.png)
 ![](images/image5.png)
 
-## ESTRUCTURA DEL PROYECTO
+## ARQUITECTURA DEL PROYECTO
 
+![](images/arqui.png)
 ```
 src/main/java/com/edu/eci/arep/property/
 ├── controller/     → PropertyController
@@ -186,6 +187,7 @@ src/main/resources/
 pom.xml
 target/             → jar generado
 ```
+
 
 ## EVIDENCIAS
 
