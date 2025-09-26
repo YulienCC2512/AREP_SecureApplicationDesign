@@ -189,7 +189,8 @@ target/             → jar generado
 
 ## EVIDENCIAS
 
-- **Video de despliegue y demostración:** `Prueba-Funcionamiento.mp4` (incluir enlace relativo si lo subes al repo)
+- **Video de despliegue y demostración:** `Prueba-Funcionamiento.mp4` 
+    ![Ver Funcionamiento](./Prueba-Funcionamiento.mp4)
 
 
 
