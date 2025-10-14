@@ -1,4 +1,4 @@
-package com.edu.eci.arep.property;
+package com.edu.eci.arep.secureapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

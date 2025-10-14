@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Property Management - Julian Cárdenas</title>
+    <title>Resources Managements - Julian Cárdenas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <h1>Property Management</h1>
+    <h1>Resources Management</h1>
     <p>Julian Cárdenas</p>
 </header>
 
 <main>
 
     <section class="card">
-        <h2 class="toggle">Create Property</h2>
+        <h2 class="toggle">Create Resource</h2>
         <div class="content">
             <form id="createForm">
                 <input type="text" id="createAddress" placeholder="Address" required>
@@ -28,7 +28,7 @@
 
 
     <section class="card">
-        <h2 class="toggle">All Properties</h2>
+        <h2 class="toggle">All Resources</h2>
         <div class="content">
             <button onclick="getAll()">Load All</button>
             <ul id="allProperties" class="black-list"></ul>
@@ -37,7 +37,7 @@
 
 
     <section class="card">
-        <h2 class="toggle">Get Property by ID</h2>
+        <h2 class="toggle">Get Resource by ID</h2>
         <div class="content">
             <input type="number" id="getId" placeholder="Enter ID">
             <button onclick="getById()">Get</button>
@@ -47,7 +47,7 @@
 
 
     <section class="card">
-        <h2 class="toggle">Update Property</h2>
+        <h2 class="toggle">Update</h2>
         <div class="content">
             <form id="updateForm">
                 <input type="number" id="updateId" placeholder="ID" required>
@@ -61,7 +61,7 @@
     </section>
 
     <section class="card">
-        <h2 class="toggle">Delete Property</h2>
+        <h2 class="toggle">Delete Resource</h2>
         <div class="content">
             <input type="number" id="deleteId" placeholder="Enter ID">
             <button onclick="deleteProperty()">Delete</button>

@@ -1,4 +1,4 @@
-package com.edu.eci.arep.property.model;
+package com.edu.eci.arep.secureapp.model;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 @Table(name = "property")
 
 
-public class Property {
+public class Resource {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -24,10 +24,10 @@ public class Property {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    public Property() {}
+    public Resource() {}
 
 
-    public Property(String address, BigDecimal price, Double size, String description) {
+    public Resource(String address, BigDecimal price, Double size, String description) {
         this.address = address;
         this.price = price;
         this.size = size;
